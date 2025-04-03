@@ -11,7 +11,7 @@ function App() {
     <MovieProvider>
       <NavBar />
       <main className="main-content">
-        <Routes>
+        <Routes basename="/movie-search-engine">
           <Route path="/" element={<Home />} />
           <Route path="/favorites" element={<Favorites />} />
         </Routes>
