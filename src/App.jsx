@@ -11,7 +11,7 @@ function App() {
     <MovieProvider>
       <NavBar />
       <main className="main-content">
-        <Routes>
+        <Routes basename="/bank-of-react-starter-code">
           <Route path="/" element={<Home />} />
           <Route path="/favorites" element={<Favorites />} />
         </Routes>
